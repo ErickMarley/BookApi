@@ -16,6 +16,10 @@ mvn spring-boot:run
 
 3-La API estará disponible en http://localhost:8080
 
+Todos los ENDPONTS tienen una autenticacion basica, el cual se tiene que configurar en la pestaña Authorization y en el campo Auth type poner Basic Auth y poner lo siguiente:
+User: user
+Password: password
+
 ENDPOINTS
 
 GET: http://localhost:8080/api/books
